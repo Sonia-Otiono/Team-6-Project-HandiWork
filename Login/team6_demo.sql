@@ -1,29 +1,8 @@
--- phpMyAdmin SQL Dump
--- version 5.1.0-dev
--- https://www.phpmyadmin.net/
---
--- Host: 192.168.30.23
--- Generation Time: Dec 17, 2020 at 10:42 AM
--- Server version: 8.0.18
--- PHP Version: 7.4.11
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `mashlog_demo`
---
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `user_login`
 --
 
@@ -38,7 +17,7 @@ CREATE TABLE `user_login` (
 --
 
 INSERT INTO `user_login` (`id`, `username`, `Password`) VALUES
-(1, 'mashlog', 'Password@123');
+(1, 'sonia', 'Password@123');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +40,3 @@ ALTER TABLE `user_login`
 ALTER TABLE `user_login`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
