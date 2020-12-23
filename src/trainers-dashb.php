@@ -110,32 +110,7 @@
         </div>    
     </section>
 
-    <!-- <section>
-        <div class="container"><h4>Courses</h4></div>
-        <div class="container">
-            <div class="row">
-                <div class="col s12 m6 l6">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="Images/<?php //echo $course['Image'];?>">
-                        </div>
-                        <div class="card-content">
-                        <div class="card-title">
-                        <h4 class="black-text"><?php //echo $course['Title'];?></h4>
-                        </div>
-                            <h5><?php //echo $course['Description'];?></h5>
-                            <p><?php //echo $course['Content'];?></p>
-                        </div>
-                        <div class="card-action" min-width="550px">
-                            <a href="update-course.php?CourseID=<?php //echo $course['CourseID'] ?>">Update Course</a>
-                            <a href="delete-course.php?CourseID=<?php //echo $course['CourseID'] ?>">Delete Course</a>
-                            <!-- <a href="<?php //echo $course['CourseID'] ?>">Download Course</a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-    </section> 
+    
 
 <?php 
 
