@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>HandiWork</title>
     <link rel="stylesheet" href="materialize/css/materialize.min.css">
     <link rel="stylesheet" href="materialize/css/font/material-icons.css">
     <link rel="stylesheet" type="text/css" href="hwstyle.css">
@@ -22,7 +22,7 @@
                         <li><input type="text" id="search" class="grey lighten-4" placeholder="search for course">
                             <i class="material-icons red-text text-darken-1" id="search-icon">search</i>
                         </li>
-                        <li><a href="trainers.php" class="btn red darken-1 z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
+                        <li><a href="trainers-dashb.php" class="btn red darken-1 z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
         
                     <ul class="sidenav" id="ham-menu">
                         <li><a href="#" >Explore</a></li>

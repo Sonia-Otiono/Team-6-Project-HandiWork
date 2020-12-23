@@ -15,7 +15,7 @@
 
 }
 div img{
-    height: 270px;
+    min-height: 100;
     min-width: 100%;
 }
 .card{
@@ -103,13 +103,13 @@ body{
     right: 10px;
     top: 5px;
 }
-.teal{
-    color: white;
+.grey{
+    /* color: white; */
     margin-bottom: 15px;
     padding: 5px 5px;
     border-radius: 8px;
 }
-.teal h5{
+.grey h5{
     font-weight: 500;
 }
 .students{
@@ -123,7 +123,7 @@ body{
     font-weight: 500;
     padding: 2px 2px;
 }
-.teal ul i{
+.grey ul i{
     position: relative;
     top: 7px;
 }
@@ -133,4 +133,8 @@ div .tdb{
 .instruct img{
     min-width: 150px;
     min-height: 450px;
+}
+.cre8{
+    padding: 3vh 3vw;
+    margin-bottom: 45px;
 }

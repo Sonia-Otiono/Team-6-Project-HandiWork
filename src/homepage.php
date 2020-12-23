@@ -1,206 +1,203 @@
 <?php
 
-    include('include/config.php');
-
-    include('include/header.php');
+include('include/config.php')
 
 ?>
 
-
-    <section>
-        <div class="hero">
-            <div class="container">
-                <h2 class="center" style="color: white;">Learn Expert-Led Vocational Skills For <span class="yellow-text text-darken-3" style="font-size: 60px;">FREE </span>and at Your Own Pace.</h2>
-                <div>
-                    <a href="#" class="center btn yellow darken-4 ">Sign Up Now</a>
-                    <!-- <a href="#" class="check center btn yellow darken-4">Check what others are saying</a> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="materialize/css/font/material-icons.css">
+    <link rel="stylesheet" type="text/css" href="trainers.css">
+</head>
+<body class="grey lighten-4">
+    <header id="lp-header">
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper white z-depth-0">
+                <div class="container">
+                    <a href="#" class="brand-logo red-text text-darken-1" style="font-weight: 500;">HandiWork</a>
+                    <a href="#" class="sidenav-trigger" data-target="ham-menu">
+                        <i class="material-icons red-text">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="all-courses.php" class="btn red darken-1 z-depth-0 main-nav" id="explore" style=" font-weight: 500;" >EXPLORE</a></li>
+                        <li><input type="text" id="search" class="grey lighten-4" placeholder="search for course">
+                            <i class="material-icons red-text text-darken-1" id="search-icon">search</i>
+                        </li>
+                        <li><a href="trainers-dashb.php" class="btn red darken-1 z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
+        
+                    <ul class="sidenav" id="ham-menu">
+                        <li><a href="#" >Explore</a></li>
+                        <li><a href="#" >Dashboard</a></li>
+                        <li><a href="#" >Log out</a></li>
+                    </ul>
                 </div>
-            </div>
+            </nav>
         </div>
-    </section>
+    </header>
 
-    <div class="container">
-        <h4>Most Viewed Courses</h4>
+   <section class="picture">
+       <div class="bottom-left">
+           <h1>Welcome</h1>
+       </div>
+   </section>
+   <h3><b>
+       What We Offer</b>
+   </h3>
+   <h2>Aesthetics</h2>
+   <section>
+     <div class="column">
+      <div class="card">
+        <h5>Make up</h5>
+        <img src="td-images/Make up.jpg" width="200px" height="200px"><br><br>
+        <input type="button" name="log" id="log" value="View"></div>
     </div>
-    <hr >
+    <div class="column">
+      <div class="card">
+        <h5>Hair Weaving</h5>
+        <img src="td-images/Hair weaving.jpg" width="200px" height="200px"><br><br>
+        <input type="button" name="log" id="log" value="View"></div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <h5>Interior Design</h5>
+        <img src="td-images/Interior design.jpg" width="200px" height="200px"><br><br>
+        <input type="button" name="log" id="log" value="View"></div>
+    </div>
 
-        <div class="container">
-            <div class="row ">
-                <div class="col s12 l3">
-                   <div class="card">
-                       <div class="card-image">
-                           <img src="Images/baking.jpg" alt="">
-                       </div>
-                       <div class="card-content">
-                           <span class="card-title center">Baking</span>
-                           <p>Instructor's Name</p>
-                       </div>
-                       <div class="card-action">
-                        <a href="#" class="black-text">View</a>
-                    </div>
-                    </div>
-                </div>
+      </div>
+      </section>
+ 
 
-                <div class="col s12 l3">
-                   <div class="card">
-                       <div class="card-image">
-                           <img src="Images/carpentry.jpg" alt="">
-                       </div>
-                       <div class="card-content">
-                           <span class="card-title center">Carpentry</span>
-                           <p>Instructor's Name</p>
-                       </div>
-                       <div class="card-action">
-                        <a href="#" class="black-text">View</a>
-                    </div>
-                    </div>
-                </div>
+ <h2>Fashion</h2>
+<section>
+ <div class="row">
+  <div class="column">
+    <div class="card">
+      <h5>Pattern Drafting</h5>
+      <img src="td-images/pattern drafting.jpg" width="200px" height="200px"><br><br>
+      <input type="button" name="log" id="log" value="View"></div>
+  </div>
+  
 
-                <div class="col s12 l3">
-                   <div class="card">
-                       <div class="card-image">
-                           <img src="Images/Tailoring.jpg" alt="">
-                       </div>
-                       <div class="card-content">
-                           <span class="card-title center">Tailoring</span>
-                           <p>Instructor's Name</p>
-                       </div>
-                       <div class="card-action">
-                        <a href="#" class="black-text">View</a>
-                    </div>
-                    </div>
-                </div>
-                <div class="col s12 l3">
-                   <div class="card">
-                       <div class="card-image">
-                           <img src="Images/Pottery.jpg" alt="">
-                       </div>
-                       <div class="card-content">
-                           <span class="card-title center">Pottery</span>
-                           <p>Instructor's Name</p>
-                       </div>
-                       <div class="card-action">
-                        <a href="#" class="black-text">View</a>
-                    </div>
-                    </div>
-                </div>
-                <!-- <div class="col s12 l3">
-                   <figure>
-                       <img src="Images/baking.jpg" alt="">
-                       <figcaption style="font-size: 20px;">Pottery</figcaption>
-                   </figure>
-                </div>
-                <div class="col s12 l3">
-                   <figure>
-                       <img src="Images/carpentry.jpg" alt="">
-                       <figcaption style="font-size: 20px;">Pottery</figcaption>
-                   </figure>
-                </div>
-                <div class="col s12 l3">
-                   <figure>
-                       <img src="Images/Tailoring.jpg" alt="">
-                       <figcaption style="font-size: 20px;">Pottery</figcaption>
-                   </figure>
-                </div>
-                <div class="col s12 l3">
-                   <figure>
-                       <img src="Images/Pottery.jpg" alt="">
-                       <figcaption style="font-size: 20px;">Pottery</figcaption>
-                   </figure>
-                </div> -->
-            </div>
-        </div> 
+  <div class="column">
+    <div class="card">
+      <h5>Garment Making</h5>
+      <img src="td-images/Fashion.jpg" width="200px" height="200px"><br><br>
+      <input type="button" name="log" id="log" value="View"></div>
+  </div>
+  
+     <div class="column">
+       <div class="card">
+           <h5>Skirts Making</h5>
+           <img src="td-images/skirts.jpg" width="200px" height="200px"><br><br>
+           <input type="button" name="log" id="log" value="View">
+</div>
+</div>
+ </div>
+</section>
+<h2>Crafting</h2>
+<section>
+  <div class="column">
+    <div class="card">
+        <h5>Crochet</h5>
+        <img src="td-images/Crochet.jpg" width="200px" height="200px"><br><br>
+        <input type="button" name="log" id="log" value="View">
+</div>
+</div> 
 
-        <hr class="thehr">
-            <section class="gains">
-                <div class="row container">
-                    <div class="col s112 l4">                        
-                        <h5><span><i class="material-icons teal-text">access_time</i></span>SELF-PACED LEARNING</h5>
-                    </div>
-                    <div class="col s12 l4">
-                        <h5><span><i class="material-icons teal-text">all_inclusive</i></span>LONG TERM ACCESS TO COURSES</h5>
-                    </div>
-                    <div class="col s12 l4">
-                        <h5><span><i class="material-icons teal-text">check</i></span>WIDE-RANGE VOCATIONAL COURSES</h5>
-                    </div>
-                </div>
-            </section>
+<div class="column">
+  <div class="card">
+    <h5>Bead Making</h5>
+    <img src="td-images/beads.jpg" width="200px" height="200px"><br><br>
+    <input type="button" name="log" id="log" value="View"></div>
+</div>
+</div>
+  
+<div class="column">
+  <div class="card">
+    <h5>Shoe Making</h5>
+    <img src="td-images/Shoe Making.jpg" width="200px" height="200px"><br><br>
+    <input type="button" name="log" id="log" value="View"></div>
+</div>
+ </div>
+</section>
 
-        <hr class="gainshr">
+<h2>Baking/Confectioneries</h2>
+<section>
+  <div class="column">
+    <div class="card">
+        <h5>Pie</h5>
+        <img src="td-images/pie.jpg" width="200px" height="200px"><br><br>
+        <input type="button" name="log" id="log" value="View">
+</div>
+</div> 
 
-        <section class="instruct">
-            <div class="grey lighten-3">
-                <div class="row container">
-                    <div class="col s12 l5">
-                        <h2 class="center stretch">Interested in Becoming an instructor?</h2>
-                        <a href="#" class="btn black thesignup">Sign up</a>
-                    </div>
-                    <div class="col s12 l5 offset-l2">
-                        <img src="images/instructor.jpg" alt="">
-                    </div>
-                     <div class="card-action">
+<div class="column">
+  <div class="card">
+    <h5>Cakes</h5>
+    <img src="td-images/cakes.jpg" width="200px" height="200px"><br><br>
+    <input type="button" name="log" id="log" value="View"></div>
+</div>
+</div>
+  
+<div class="column">
+  <div class="card">
+    <h5>Bread/Cookies</h5>
+    <img src="td-images/baking.jpg" width="200px" height="200px"><br><br>
+    <input type="button" name="log" id="log" value="View"></div>
+</div>
+ </div>
+</section>
+<section class="section2">
+  <div class="row">
+      <div class="column">
+        <div class="card">
+            <h5>ANNOUNCEMENTS</h5>
+            <img src="td-images/announcements.jpg" width="200px" height="200px"><br><br>
+            <input type="button" name="log" id="log" value="Click here"></div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h5>SESSIONS - 30 DAYS</h5>
+          <img src="td-images/Learning.jpg" width="200px" height="200px"><br><br>
+            <input type="button" name="log" id="log" value="Find out more"></div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h5>Messages</h5>
+          <img src="td-images/messages.jpg" width="200px" height="200px"><br><br>
+            <input type="button" name="log" id="log" value="Click here"></div>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="row">
+      <div class="column">
+        <div class="card">
+          <h5>ACTIVE USERS</h5>
+          <img src="td-images/Running.jpg" width="200px" height="200px"><br><br>
+            <input type="button" name="log" id="log" value="Click here"></div>
+      </div>
+    <div class="column">
+      <div class="card">
+        <h5>UPLOAD/UPDATE COURSE</h5>
+        <img src="td-images/computer.jpg" width="200px" height="200px"><br><br>
+            <input type="button" name="log" id="log" value="Click here"></div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <h5>REGISTERED TRAINEES</h5>
+        <img src="td-images/work.jpeg" width="200px" height="200px"><br><br>
+        <input type="button" name="log" id="log" value="Click here"></div>
+    </div>
+</div>
 
-                    </div>
-                </div>
-            </div>
-        </section>
+<?php
 
-
-        <div class="container testify">
-            <h4>Testimonials</h4>
-        </div>
-        <hr>
-
-        <section >
-            <div class="container ">
-                <div class="row">
-                    <div class="col s12 l4">
-                        <div class="card  testimony">
-                            <div class="card-image">
-                                <img src="Images/student1.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title center">Learner</span>
-                                <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit.</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col s12 l4">
-                        <div class="card  testimony">
-                            <div class="card-image">
-                                <img src="Images/student2.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title center">Learner</span>
-                                <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit.</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col s12 l4">
-                        <div class="card  testimony">
-                            <div class="card-image">
-                                <img src="Images/student3.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title center">Learner</span>
-                                <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit.</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>    
-
-        </section>
-
-
-<?php 
-
-include('include/footer.php'); 
+include('include/footer.php')
 
 ?>

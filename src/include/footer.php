@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="footer-copyright red darken-4">
-                <p class="container center">&copy; 2020 Designed by Sonia Otiono</p>
+                <p class="container center">&copy; 2020 HandiWork</p>
             </div>
         </footer>
 

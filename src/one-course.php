@@ -31,22 +31,17 @@ include('include/header.php');
         <div class="container"><h2>Course Page</h2></div>
         <div class="container">
             <div class="row">
-                <div class="col s12 m6 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="Images/<?php echo $course['Image'];?>" width="250px" height="250px">
+                <div class="col s12 m6 l6">
+                    <div class="card" style="min-width: 550px; min-height: 450px;">
+                        <div class="card-image" style="min-width: 70px; min-height: 250px;">
+                            <img src="Images/<?php echo $course['Image'];?>" height="450px">
                         </div>
-                        <div class="card-content">
+                        <div class="card-content" style="min-width: 550px; min-height: 50px;">
                         <div class="card-title">
                         <h4 class="black-text"><?php echo $course['Title'];?></h4>
                         </div>
                             <h5><?php echo $course['Description'];?></h5>
                             <p><?php echo $course['Content'];?></p>
-                        </div>
-                        <div class="card-action">
-                            <a href="update-course.php?CourseID=<?php echo $course['CourseID'] ?>">Update Course</a>
-                            <a href="delete-course.php?CourseID=<?php echo $course['CourseID'] ?>">Delete Course</a>
-                            <!-- <a href="<?php //echo $course['CourseID'] ?>">Download Course</a> -->
                         </div>
                     </div>
                 </div>
