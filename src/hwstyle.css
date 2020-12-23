@@ -1,0 +1,140 @@
+#search{
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 405px;
+    height: 30px;
+    margin-right: 100px;
+}
+#search-icon{
+    position: relative;
+    bottom: 60px;
+    left: 375px;
+}
+#explore{
+    margin-right: 100px;
+
+}
+div img{
+    min-height: 100;
+    min-width: 100%;
+}
+.card{
+    height: 25px;
+    width: 280px;
+    margin: 15px 0px 430px 0px;
+    border-radius: 10px;
+}
+.card-content{
+    background-color: white;
+}
+.card p{
+    text-align: center;
+}
+/* .card-title{
+    font-weight: 600;
+} */
+
+div figure img{
+    min-height: 215px;
+    min-width: 270px;
+    /* margin: 0px 0px 450px 0px; */
+}
+div figure figcaption{
+    margin-left: 95px;
+}
+.courses{
+    margin-top: 4vh;
+}
+.hero{
+    background-image: url(Images/wallpaper.jpg);
+    background-size: cover ;
+    height: 360px;
+    margin-bottom: 5vh;
+    margin-top: -5vh;
+}
+.hero h2{
+    padding-top: 6vh;
+    margin-bottom: 5px;
+}
+.hero a{
+    position: relative;
+    top: 3vh;
+    left: 32vw;
+}
+.check{
+    margin-left: 12vw;
+}
+.thesignup{
+    position: relative;
+    left: 10vw;
+    margin-bottom: 15px;
+}
+.testimony{
+    margin-bottom: 500px;
+    background-color: white;
+}
+.testify{
+    padding-top: 3vh;
+
+}
+body{
+    font-weight: 500;
+}
+.stretch{
+    letter-spacing: 12px;
+    display: inline-block;
+    font-size: 62px;
+    /* transform: scaleY(0.7); */
+    transform-origin: 0 0;
+}
+.thehr{
+    padding-top:3vh;
+    margin-bottom: -15px;
+}
+.gainshr{
+    padding-bottom: 3vh;
+}
+.gains h5{
+    font-weight: 600;
+    font-size: 20px;
+}
+.teal-text{
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+.grey{
+    /* color: white; */
+    margin-bottom: 15px;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+.grey h5{
+    font-weight: 500;
+}
+.students{
+    /* margin-top: 5px; */
+    margin-left: 45px;
+}
+.profile, .course{
+    margin-bottom: 55px;
+}
+.td{
+    font-weight: 500;
+    padding: 2px 2px;
+}
+.grey ul i{
+    position: relative;
+    top: 7px;
+}
+div .tdb{
+    padding: 65px 55px;
+}
+.instruct img{
+    min-width: 150px;
+    min-height: 450px;
+}
+.cre8{
+    padding: 3vh 3vw;
+    margin-bottom: 45px;
+}
