@@ -26,8 +26,6 @@ body{
     position: relative;
     /* left: 10px; */
 }
-<<<<<<< HEAD:src/handistyle.css
-=======
 div img{
     min-height: 270px;
     min-width: 100%;
@@ -47,7 +45,6 @@ div img{
 /* .card-title{
     font-weight: 600;
 } */
->>>>>>> development:src/hwstyle.css
 
 .hero{
     background-image: url(Images/wallpaper.jpg);
