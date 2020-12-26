@@ -53,9 +53,14 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
                 
                 <ul class="right hide-on-med-and-down">
             
+<<<<<<< HEAD
                     <li><a href="login.php">login</a></li>
                     <li><a href="signup.php">Sign up</a></li>
                     <li><a href="all-courses.php">Courses</a></li>
+=======
+                    <li><a href="#">login</a></li>
+                    <li><a href="#">Courses</a></li>
+>>>>>>> development
                     <li><a href="#">Go premium</a></li>
 
 
@@ -64,7 +69,6 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
                 <ul class="sidenav" id="links">
             
                     <li><a href="#">login </a></li>
-                    <li><a href="#">Sign up</a></li>
                     <li><a href="#">Courses</a></li>
                     <li><a href="#">Go premium</a></li>
         
@@ -115,35 +119,40 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
  </div>
  </section> 
  
-
-
-
-<!-- <section>
-      <div class="container">
-      <h4>Add New Course</h4><br>
-      <div class="row">
-        <form class="col s12 l12" action="signup.php" method="post" enctype="multipart/form-data">
-          <div class="row">
-            <div class="input-field col s12 l12">
-              <input type="text" name="title" class="validate">
-              <label for="title">Title</label>
+ <section>  
+    <footer class="page-footer red darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About Us</h5>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptate eos repellendus, aspernatur
+                
+                -        iste cupiditate impedit dolorem assumenda deserunt, quia quisquam eaque in magni accusamus hic pariatur atque sit quam.
+                    </p>
+                    
+              </div>
+               
+               
+               
+                <div class="col s12 l4 offset-l2">
+                    <h5 id="contact">Connect</h5>
+                    <ul>
+                        <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Linked In</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+  
+                    </ul>
+  
+                </div>
             </div>
-            <div class="input-field col s12 l12">
-              <input type="text" name="description" class="validate">
-              <label for="description">Description</label>
-            </div>
-            <div class="input-field col s12 l12">
-              <input type="text" name="content" class="validate">
-              <label for="content">Content</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <input type="file" name="image">
-            </div>
-          </div>
-          <input type="submit" name="submit" value="submit">
-        </form>
-      </div>
-      </div>
-</section> -->
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy;2020 HandiWork</div>
+            
+        </div>
+      
+  
+    </footer>
+</section> 

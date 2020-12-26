@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Handiwork.com</title>
+    <title>Handiwork</title>
     <link rel="stylesheet" href="materialize/css/materialize.min.css">
     <link rel="stylesheet" href="materialize/css/font/material-icons.css">
     <link rel="stylesheet" type="text/css" href="handistyle.css">
@@ -13,17 +13,30 @@
         <div class="navbar-fixed">
             <nav class="nav-wrapper white z-depth-0">
                 <div class="container">
+<<<<<<< HEAD
                     <a href="homepage.php" class="brand-logo red-text  z-depth-0 text-darken-1" style="font-weight: 500;">HandiWork</a>
+=======
+                    <a href="#" class="brand-logo red-text  z-depth-0 text-darken-1" style="font-weight: 500;">HandiWork</a>
+>>>>>>> development
                     <a href="#" class="sidenav-trigger" data-target="ham-menu">
                         <i class="material-icons red-text">menu</i>
                     </a>
                     <ul class="right hide-on-med-and-down">
+<<<<<<< HEAD
                         <li><a href="all-courses.php" class="btn red darken-1 btn-small z-depth-0 main-nav" id="explore" style=" font-weight: 500;" >EXPLORE</a></li>
                         <li><input type="text" id="search" class="grey lighten-4" placeholder="search for course">
                             <i class="material-icons red-text text-darken-1" id="search-icon">search</i>
                         </li>
                         <li><a href="login.php" class="btn red darken-1 topbtn z-depth-0 main-nav" style=" font-weight: 500;" >LOG IN</a></li>
                         <li><a href="signup.php" class="btn red darken-1 topbtn z-depth-0 main-nav" style="font-weight: 500;">SIGN UP</a></li>
+=======
+                        <li><a href="all-courses.php" class="btn red darken-1 btn-small main-nav" id="explore" style=" font-weight: 500;" >EXPLORE</a></li>
+                        <li><input type="text" id="search" class="grey lighten-4" placeholder="search for course">
+                            <i class="material-icons red-text text-darken-1" id="search-icon">search</i>
+                        </li>
+                        <li><a href="login.php" class="btn red darken-1 z-depth-0 main-nav" style=" font-weight: 500;" >LOG IN</a></li>
+                        <li><a href="signup.php" class="btn red darken-1 z-depth-0 main-nav" style="font-weight: 500;">SIGN UP</a></li>
+>>>>>>> development
                     </ul>
         
                     <ul class="sidenav" id="ham-menu">

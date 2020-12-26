@@ -26,6 +26,28 @@ body{
     position: relative;
     /* left: 10px; */
 }
+<<<<<<< HEAD:src/handistyle.css
+=======
+div img{
+    min-height: 270px;
+    min-width: 100%;
+}
+.card{
+    height: 25px;
+    width: 280px;
+    margin: 15px 0px 430px 0px;
+    border-radius: 10px;
+}
+.card-content{
+    background-color: white;
+}
+.card p{
+    text-align: center;
+}
+/* .card-title{
+    font-weight: 600;
+} */
+>>>>>>> development:src/hwstyle.css
 
 .hero{
     background-image: url(Images/wallpaper.jpg);
