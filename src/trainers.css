@@ -1,18 +1,26 @@
+#explore{
+  position: relative;
+  right: 160px;
+}
+
 #search{
   border: 2px solid grey;
   border-radius: 8px;
   width: 405px;
   height: 30px;
-  margin-right: 100px;
+  position: relative;
+  right: 100px;
 }
+
 #search-icon{
   position: relative;
-  bottom: 60px;
-  left: 375px;
+  top: -60px;
+  left: 275px;
 }
-#explore{
-  margin-right: 100px;
 
+.topbtn, .dashb{
+  position: relative;
+  /* left: 10px; */
 }
 .picture{
   background-image: url(Images/wallpaper.jpg);

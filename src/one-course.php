@@ -20,7 +20,8 @@ include('include/header.php');
 
     }
 
-    
+    echo "<script type='text/javascript'>alert('Enrollment Successful')</script>";
+
 
     
     // print_r($course);
@@ -31,19 +32,26 @@ include('include/header.php');
         <div class="container"><h2>Course Page</h2></div>
         <div class="container">
             <div class="row">
-                <div class="col s12 m6 l6">
-                    <div class="card" style="min-width: 550px; min-height: 450px;">
-                        <div class="card-image" style="min-width: 70px; min-height: 250px;">
-                            <img src="Images/<?php echo $course['Image'];?>" height="450px">
+                <div class="col s12 m6 l5">
+                    <div class="card" style="min-width: 550px; height: 550px;">
+                        <div class="card-image" style="min-width: 70px; height: 350px;">
+                            <img src="Images/<?php echo $course['Image'];?>" height="340px">
                         </div>
-                        <div class="card-content" style="min-width: 550px; min-height: 50px;">
+                        <div class="card-content" style="min-width: 550px; height: 100px;">
                         <div class="card-title">
                         <h4 class="black-text"><?php echo $course['Title'];?></h4>
                         </div>
                             <h5><?php echo $course['Description'];?></h5>
-                            <p><?php echo $course['Content'];?></p>
+                        </div>
+                        <div class="card-action " style="min-width: 550px; height: 100px;">
+                            <a href="enroll.php?CourseID=<?php echo $CourseID; ?>">Enroll</a>
                         </div>
                     </div>
+                </div>
+
+                <div class="col s12 l5 offset-l2">
+                    <h4>Content</h4>
+                    <h5><?php echo $course['Content'];?></>
                 </div>
             </div>
         </div>    

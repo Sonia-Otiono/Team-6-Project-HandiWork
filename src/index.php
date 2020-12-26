@@ -6,24 +6,37 @@
     <title>Handiwork</title>
     <link rel="stylesheet" href="materialize/css/materialize.min.css">
     <link rel="stylesheet" href="materialize/css/font/material-icons.css">
-    <link rel="stylesheet" type="text/css" href="hwstyle.css">
+    <link rel="stylesheet" type="text/css" href="handistyle.css">
 </head>
-<body class="grey lighten-4">
+<body class="grey lighten-3">
     <header id="lp-header">
         <div class="navbar-fixed">
             <nav class="nav-wrapper white z-depth-0">
                 <div class="container">
+<<<<<<< HEAD
+                    <a href="homepage.php" class="brand-logo red-text  z-depth-0 text-darken-1" style="font-weight: 500;">HandiWork</a>
+=======
                     <a href="#" class="brand-logo red-text  z-depth-0 text-darken-1" style="font-weight: 500;">HandiWork</a>
+>>>>>>> development
                     <a href="#" class="sidenav-trigger" data-target="ham-menu">
                         <i class="material-icons red-text">menu</i>
                     </a>
                     <ul class="right hide-on-med-and-down">
+<<<<<<< HEAD
+                        <li><a href="all-courses.php" class="btn red darken-1 btn-small z-depth-0 main-nav" id="explore" style=" font-weight: 500;" >EXPLORE</a></li>
+                        <li><input type="text" id="search" class="grey lighten-4" placeholder="search for course">
+                            <i class="material-icons red-text text-darken-1" id="search-icon">search</i>
+                        </li>
+                        <li><a href="login.php" class="btn red darken-1 topbtn z-depth-0 main-nav" style=" font-weight: 500;" >LOG IN</a></li>
+                        <li><a href="signup.php" class="btn red darken-1 topbtn z-depth-0 main-nav" style="font-weight: 500;">SIGN UP</a></li>
+=======
                         <li><a href="all-courses.php" class="btn red darken-1 btn-small main-nav" id="explore" style=" font-weight: 500;" >EXPLORE</a></li>
                         <li><input type="text" id="search" class="grey lighten-4" placeholder="search for course">
                             <i class="material-icons red-text text-darken-1" id="search-icon">search</i>
                         </li>
                         <li><a href="login.php" class="btn red darken-1 z-depth-0 main-nav" style=" font-weight: 500;" >LOG IN</a></li>
                         <li><a href="signup.php" class="btn red darken-1 z-depth-0 main-nav" style="font-weight: 500;">SIGN UP</a></li>
+>>>>>>> development
                     </ul>
         
                     <ul class="sidenav" id="ham-menu">
@@ -39,7 +52,7 @@
     <section>
         <div class="hero">
             <div class="container">
-                <h2 class="center" style="color: white;">Learn Expert-Led Vocational Skills For <span class="yellow-text text-darken-3" style="font-size: 60px;">FREE </span>and at Your Own Pace.</h2>
+                <h2 class="center white-text">Learn Expert-Led Vocational Skills For <span class="yellow-text text-darken-3" style="font-size: 60px;">FREE </span>and at Your Own Pace.</h2>
                 <div>
                     <a href="signup.php" class="center btn yellow darken-4 ">Sign Up Now</a>
                     <!-- <a href="#" class="check center btn yellow darken-4">Check what others are saying</a> -->
@@ -49,7 +62,7 @@
     </section>
 
     <div class="container">
-        <h4>Most Viewed Courses</h4>
+        <h4 class="black-text">Most Viewed Courses</h4>
     </div>
     <hr >
 
@@ -62,7 +75,7 @@
                        </div>
                        <div class="card-content">
                            <span class="card-title center">Baking</span>
-                           <p>Instructor's Name</p>
+                           <!-- <p>Instructor's Name</p> -->
                        </div>
                        <div class="card-action">
                         <a href="#" class="black-text">View</a>
@@ -77,7 +90,7 @@
                        </div>
                        <div class="card-content">
                            <span class="card-title center">Carpentry</span>
-                           <p>Instructor's Name</p>
+                           <!-- <p>Instructor's Name</p> -->
                        </div>
                        <div class="card-action">
                         <a href="#" class="black-text">View</a>
@@ -92,7 +105,7 @@
                        </div>
                        <div class="card-content">
                            <span class="card-title center">Tailoring</span>
-                           <p>Instructor's Name</p>
+                           <!-- <p>Instructor's Name</p> -->
                        </div>
                        <div class="card-action">
                         <a href="#" class="black-text">View</a>
@@ -106,7 +119,7 @@
                        </div>
                        <div class="card-content">
                            <span class="card-title center">Pottery</span>
-                           <p>Instructor's Name</p>
+                           <!-- <p>Instructor's Name</p> -->
                        </div>
                        <div class="card-action">
                         <a href="#" class="black-text">View</a>
@@ -178,7 +191,7 @@
         <div class="container testify">
             <h4>Testimonials</h4>
         </div>
-        <hr>
+        <hr class="lasthr">
 
         <section >
             <div class="container ">

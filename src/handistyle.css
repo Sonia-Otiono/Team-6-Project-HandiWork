@@ -1,19 +1,33 @@
+body{
+    font-weight: 500;
+}
+
+#explore{
+    position: relative;
+    right: 160px;
+}
+
 #search{
     border: 2px solid grey;
     border-radius: 8px;
     width: 405px;
     height: 30px;
-    margin-right: 100px;
+    position: relative;
+    right: 100px;
 }
+
 #search-icon{
     position: relative;
-    bottom: 60px;
-    left: 375px;
+    top: -60px;
+    left: 275px;
 }
-#explore{
-    margin-right: 100px;
 
+.topbtn, .dashb{
+    position: relative;
+    /* left: 10px; */
 }
+<<<<<<< HEAD:src/handistyle.css
+=======
 div img{
     min-height: 270px;
     min-width: 100%;
@@ -33,18 +47,8 @@ div img{
 /* .card-title{
     font-weight: 600;
 } */
+>>>>>>> development:src/hwstyle.css
 
-div figure img{
-    min-height: 215px;
-    min-width: 270px;
-    /* margin: 0px 0px 450px 0px; */
-}
-div figure figcaption{
-    margin-left: 95px;
-}
-.courses{
-    margin-top: 4vh;
-}
 .hero{
     background-image: url(Images/wallpaper.jpg);
     background-size: cover ;
@@ -61,31 +65,30 @@ div figure figcaption{
     top: 3vh;
     left: 32vw;
 }
-.check{
-    margin-left: 12vw;
+.card{
+    height: 25px;
+    width: 280px;
+    margin-top: 15px;
+    margin-bottom: 400px;
+    border-radius: 10px;
 }
-.thesignup{
-    position: relative;
-    left: 10vw;
-    margin-bottom: 15px;
+.card .card-image img{
+    height: 250px;
+    min-width: 50px;
 }
-.testimony{
-    margin-bottom: 500px;
+.card-content{
     background-color: white;
 }
-.testify{
-    padding-top: 3vh;
-
+.card p{
+    text-align: center;
 }
-body{
-    font-weight: 500;
-}
-.stretch{
-    letter-spacing: 12px;
-    display: inline-block;
-    font-size: 62px;
-    /* transform: scaleY(0.7); */
-    transform-origin: 0 0;
+ .card-title{
+    font-weight: 800;
+} 
+.teal-text{
+    position: relative;
+    right: 10px;
+    top: 5px;
 }
 .thehr{
     padding-top:3vh;
@@ -98,13 +101,25 @@ body{
     font-weight: 600;
     font-size: 20px;
 }
-.teal-text{
+.stretch{
+    letter-spacing: 12px;
+    display: inline-block;
+    font-size: 62px;
+    transform: scaleY(0.7); 
+    transform-origin: 0 0;
+    line-height: 82px;
+}
+.thesignup{
     position: relative;
-    right: 10px;
-    top: 5px;
+    left: 10vw;
+    margin-top: -120px;
+    margin-bottom: 25px;
+}
+.instruct img{
+    min-width: 150px;
+    height: 450px;
 }
 .grey{
-    /* color: white; */
     margin-bottom: 15px;
     padding: 5px 5px;
     border-radius: 8px;
@@ -113,28 +128,41 @@ body{
     font-weight: 500;
 }
 .students{
-    /* margin-top: 5px; */
+    margin-top: 5px; 
     margin-left: 45px;
 }
 .profile, .course{
-    margin-bottom: 55px;
+    margin-bottom: 15px;
 }
 .td{
     font-weight: 500;
-    padding: 2px 2px;
 }
 .grey ul i{
     position: relative;
     top: 7px;
 }
 div .tdb{
-    padding: 65px 55px;
+    padding: 2vh;
+    margin-left: 2px;
 }
-.instruct img{
-    min-width: 150px;
-    min-height: 450px;
-}
+
 .cre8{
     padding: 3vh 3vw;
     margin-bottom: 45px;
+}
+.courses{
+    margin-top: 4vh;
+}
+.check{
+    margin-left: 12vw;
+}
+.testimony{
+    margin-bottom: 500px;
+    background-color: white;
+}
+.testify{
+    padding-top: 3vh;
+}
+.lasthr{
+    padding-bottom: 4vh;
 }
