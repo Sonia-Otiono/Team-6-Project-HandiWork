@@ -53,9 +53,9 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
                 
                 <ul class="right hide-on-med-and-down">
             
-                    <li><a href="#">login</a></li>
-                    <li><a href="#">Sign up</a></li>
-                    <li><a href="#">Courses</a></li>
+                    <li><a href="login.php">login</a></li>
+                    <li><a href="signup.php">Sign up</a></li>
+                    <li><a href="all-courses.php">Courses</a></li>
                     <li><a href="#">Go premium</a></li>
 
 

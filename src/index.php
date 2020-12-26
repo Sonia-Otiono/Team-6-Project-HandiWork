@@ -13,7 +13,7 @@
         <div class="navbar-fixed">
             <nav class="nav-wrapper white z-depth-0">
                 <div class="container">
-                    <a href="homepage.php" class="brand-logo red-text  z-depth-0text-darken-1" style="font-weight: 500;">HandiWork</a>
+                    <a href="homepage.php" class="brand-logo red-text  z-depth-0 text-darken-1" style="font-weight: 500;">HandiWork</a>
                     <a href="#" class="sidenav-trigger" data-target="ham-menu">
                         <i class="material-icons red-text">menu</i>
                     </a>

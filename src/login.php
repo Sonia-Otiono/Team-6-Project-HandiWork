@@ -58,11 +58,20 @@ if (isset($_POST['username']) and isset($_POST['password']))
 
     if ($count == 1)
     {
+
+        session_start();
+                            
+        // Store data in session variables
+        $_SESSION["loggedin"] = true;
+        $_SESSION["username"] = $username;
+
+
         //echo "Login Credentials verified";
         echo "<script type='text/javascript'>alert('Login Credentials verified')</script>";
 
         // success
         header('Location: homepage.php');
+        
     }
     else
     {

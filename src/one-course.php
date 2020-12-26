@@ -20,7 +20,8 @@ include('include/header.php');
 
     }
 
-    
+    echo "<script type='text/javascript'>alert('Enrollment Successful')</script>";
+
 
     
     // print_r($course);
@@ -41,6 +42,9 @@ include('include/header.php');
                         <h4 class="black-text"><?php echo $course['Title'];?></h4>
                         </div>
                             <h5><?php echo $course['Description'];?></h5>
+                        </div>
+                        <div class="card-action " style="min-width: 550px; height: 100px;">
+                            <a href="enroll.php?CourseID=<?php echo $CourseID; ?>">Enroll</a>
                         </div>
                     </div>
                 </div>

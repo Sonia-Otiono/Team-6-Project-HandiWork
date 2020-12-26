@@ -90,7 +90,8 @@ body{
 .thesignup{
     position: relative;
     left: 10vw;
-    margin-bottom: 15px;
+    margin-top: -120px;
+    margin-bottom: 25px;
 }
 .instruct img{
     min-width: 150px;

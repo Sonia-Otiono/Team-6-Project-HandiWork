@@ -1,3 +1,8 @@
+<?php
+  include('config.php');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +28,7 @@
                             <i class="material-icons red-text text-darken-1" id="search-icon">search</i>
                         </li>
                         <li><a href="trainers-dashb.php" class="btn red darken-1 dashb z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
+                        <!-- <li><a href="" class="btn red darken-1 btn-small z-depth-0 main-nav" style="font-weight: 500;">Hi,<?php //echo htmlspecialchars($_SESSION["username"]) ?></a> </li> -->
                     </ul>
                     <ul class="sidenav" id="ham-menu">
                         <li><a href="#" >Explore</a></li>
