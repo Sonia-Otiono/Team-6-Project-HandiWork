@@ -34,8 +34,8 @@ include('include/config.php')
         
                     <ul class="sidenav" id="ham-menu">
                         <li><a href="#" >Explore</a></li>
-                        <li><a href="#" >LOG IN</a></li>
-                        <li><a href="#" >SIGN UP</a></li>
+                        <li><a href="login.php" >LOG IN</a></li>
+                        <li><a href="signup.php" >SIGN UP</a></li>
                     </ul>
                 </div>
             </nav>
