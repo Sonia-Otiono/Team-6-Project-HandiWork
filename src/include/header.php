@@ -31,8 +31,8 @@
                         <!-- <li><a href="" class="btn red darken-1 btn-small z-depth-0 main-nav" style="font-weight: 500;">Hi,<?php //echo htmlspecialchars($_SESSION["username"]) ?></a> </li> -->
                     </ul>
                     <ul class="sidenav" id="ham-menu">
-                        <li><a href="#" >Explore</a></li>
-                        <li><a href="#" >Dashboard</a></li>
+                        <li><a href="all-courses.php" >Explore</a></li>
+                        <li><a href="trainers-dashb.php" >Dashboard</a></li>
                         <li><a href="#" >Log out</a></li>
                     </ul>
                 </div>
