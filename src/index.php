@@ -162,7 +162,7 @@
                 <div class="row container">
                     <div class="col s12 l5">
                         <h2 class="center stretch">Interested in Becoming an instructor?</h2>
-                        <a href="#" class="btn black thesignup">Sign up</a>
+                        <a href="signup.php" class="btn black thesignup">Sign up</a>
                     </div>
                     <div class="col s12 l5 offset-l2">
                         <img src="images/instructor.jpg" alt="">

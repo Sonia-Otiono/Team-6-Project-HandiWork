@@ -36,11 +36,11 @@ if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
 ?>
 
 
-<section>
+<section >
       <div class="container">
       <h4>Add New Course</h4><br>
       <div class="row">
-        <form class="col s12 l12" action="create-course.php" method="post" enctype="multipart/form-data">
+        <form class="col s12 l12" class="create-sec" action="create-course.php" method="post" enctype="multipart/form-data">
           <div class="row">
             <div class="input-field col s12 l12">
               <input type="text" name="title" class="validate">

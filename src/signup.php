@@ -77,6 +77,7 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
 
 <section>
         <div class="container" >
+            <h2 class="center" style="font-weight: 500">SIGN UP</h2>
         <div class="col s12 l12">
      <form action="signup.php" method="post" enctype="multipart/form-data">
          <div class="row">
@@ -114,40 +115,7 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
  </div>
  </section> 
  
- <section>  
-    <footer class="page-footer red darken-2">
-        <div class="container">
-            <div class="row">
-                <div class="col s12 l6">
-                    <h5>About Us</h5>
-                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptate eos repellendus, aspernatur
-                
-                -        iste cupiditate impedit dolorem assumenda deserunt, quia quisquam eaque in magni accusamus hic pariatur atque sit quam.
-                    </p>
-                    
-              </div>
-               
-               
-               
-                <div class="col s12 l4 offset-l2">
-                    <h5 id="contact">Connect</h5>
-                    <ul>
-                        <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
-                        <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
-                        <li><a href="#" class="grey-text text-lighten-3">Linked In</a></li>
-                        <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
-  
-                    </ul>
-  
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright grey darken-4">
-            <div class="container center-align">&copy;2020 HandiWork</div>
-            
-        </div>
-      
-  
-    </footer>
-</section> 
+ <?php
+include('include/footer.php');
+
+?>
