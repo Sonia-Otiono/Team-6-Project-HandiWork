@@ -13,7 +13,7 @@ include('include/config.php')
     <link rel="stylesheet" href="materialize/css/materialize.min.css">
     <link rel="stylesheet" href="materialize/css/font/material-icons.css">
     <link rel="stylesheet" type="text/css" href="trainers.css">
-    <link rel="stylesheet" type="text/css" href="handistyle.css">
+    <!-- <link rel="stylesheet" type="text/css" href="handistyle.css"> -->
 </head>
 <body class="grey lighten-4">
 <header id="lp-header">
@@ -155,48 +155,6 @@ include('include/config.php')
 </div>
  </div>
 </section>
-<section class="section2">
-  <div class="row">
-      <div class="column">
-        <div class="card">
-            <h5>ANNOUNCEMENTS</h5>
-            <img src="td-images/announcements.jpg" width="200px" height="200px"><br><br>
-            <input type="button" name="log" id="log" value="Click here"></div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <h5>SESSIONS - 30 DAYS</h5>
-          <img src="td-images/Learning.jpg" width="200px" height="200px"><br><br>
-            <input type="button" name="log" id="log" value="Find out more"></div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <h5>Messages</h5>
-          <img src="td-images/messages.jpg" width="200px" height="200px"><br><br>
-            <input type="button" name="log" id="log" value="Click here"></div>
-      </div>
-    </section>
-    <section class="section2">
-      <div class="row">
-      <div class="column">
-        <div class="card">
-          <h5>ACTIVE USERS</h5>
-          <img src="td-images/Running.jpg" width="200px" height="200px"><br><br>
-            <input type="button" name="log" id="log" value="Click here"></div>
-      </div>
-    <div class="column">
-      <div class="card">
-        <h5>UPLOAD/UPDATE COURSE</h5>
-        <img src="td-images/computer.jpg" width="200px" height="200px"><br><br>
-            <input type="button" name="log" id="log" value="Click here"></div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <h5>REGISTERED TRAINEES</h5>
-        <img src="td-images/work.jpeg" width="200px" height="200px"><br><br>
-        <input type="button" name="log" id="log" value="Click here"></div>
-    </div>
-</div>
 
 <?php
 

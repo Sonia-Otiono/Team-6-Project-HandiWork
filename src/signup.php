@@ -45,7 +45,7 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
         <nav  class="red accent-4 white-text" role="navigation">
 
             <div class="nav-wrapper container">
-                <a  href="#" class="brand-logo ">HandiWork</a>
+                <a  href="homepage.php" class="brand-logo ">HandiWork</a>
 
                 <a href="#"class="sidenav-trigger" data-target="links">
                 <i class="material-icons">menu</i>
@@ -53,14 +53,8 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
                 
                 <ul class="right hide-on-med-and-down">
             
-<<<<<<< HEAD
                     <li><a href="login.php">login</a></li>
-                    <li><a href="signup.php">Sign up</a></li>
                     <li><a href="all-courses.php">Courses</a></li>
-=======
-                    <li><a href="#">login</a></li>
-                    <li><a href="#">Courses</a></li>
->>>>>>> development
                     <li><a href="#">Go premium</a></li>
 
 
@@ -78,6 +72,7 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
       </nav>
       </div> 
     </section>
+
        
 
 <section>

@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
             // save to db and check
             if(mysqli_query($conn, $squery))
             {
-                echo "<div class='alert alert-success'>Record was updated.</div>";
+                echo "<div class='alert alert-success'><h5>Course was updated.</h5></div>";
             } 
             else
             {
@@ -75,7 +75,10 @@ else
         <form class="col s12 l12" action="update-course.php" method="post" enctype="multipart/form-data">
           <div class="row">
             <div class="input-field col s12 l12">
-            <input type="text" name="id" value="<?php echo $id?>" class="validate">
+              <input type="text" name="id" value="<?php echo $id?>" class="validate">
+              <label for="courseid">Course ID</label>
+            </div>
+            <div class="input-field col s12 l12">
               <input type="text" name="title" value="<?php echo $title?>" class="validate">
               <label for="title">Title</label>
             </div>

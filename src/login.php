@@ -58,12 +58,14 @@ if (isset($_POST['username']) and isset($_POST['password']))
 
     if ($count == 1)
     {
-
+        $user = mysqli_fetch_array($result);
+    print_r($user);
         session_start();
                             
         // Store data in session variables
         $_SESSION["loggedin"] = true;
         $_SESSION["username"] = $username;
+        $_SESSION["UserID"] = $user['UserId'];
 
 
         //echo "Login Credentials verified";
@@ -84,9 +86,5 @@ if (isset($_POST['username']) and isset($_POST['password']))
 
         }
   
-}
-else{
-    echo "failed";
-
 }
 ?>

@@ -7,11 +7,11 @@
                     </div>
                     <div class="col s12 l4 center">
                         <i class="material-icons">mail</i>
-                        <p>hello@girlpower.com.ng</p>
+                        <p>hello@handiwork.com.ng</p>
                     </div>
                     <div class="col s12 l4 center">
                         <i class="material-icons">phone</i>
-                        <p>+234-8094278803</p>
+                        <p>+234-8090000000</p>
                     </div>
                 </div>
             </div>
@@ -26,9 +26,7 @@
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav();
-            $('.parallax').parallax();
             $('.tooltipped').tooltip();
-            $('.scrollspy').scrollSpy();
         });
     </script>
 </body>

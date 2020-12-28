@@ -11,7 +11,7 @@ include('include/config.php');
   $sqli = "DELETE FROM courses WHERE CourseID = $id";
 
   if(mysqli_query($conn, $sqli)) {
-      echo "<div class='alert alert-success'>Record was deleted.</div>";
+      echo '<div class="delete container"><h3 class="center grey-text">Record was deleted.</h3></div>';
   }else{
       echo "Error deleting course: " . mysqli_error($conn);
 

@@ -21,15 +21,15 @@
             <div class="row">
                 <?php foreach($courses as $course){ ?>
                 <div class="col s12 m6 l4">
-                    <div class="card">
+                    <div class="card" style="margin-bottom: 520px"> 
                         <div class="card-image">
                             <img src="Images/<?php echo $course['Image'];?>" width="250px" height="250px">
                         </div>
                         <div class="card-content">
                         <div class="card-title">
-                        <h4 class="black-text"><?php echo $course['Title'];?></h4>
+                        <h5 class="black-text"><?php echo $course['Title'];?></h5>
                         </div>
-                            <h5><?php echo $course['Description'];?></h5>
+                            <!-- <h5><?php echo $course['Description'];?></h5> -->
                             <!-- <h5><?php //echo $course['Content'];?></h5> -->
                         </div>
                         <div class="card-action">

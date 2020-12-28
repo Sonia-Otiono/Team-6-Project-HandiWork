@@ -26,25 +26,6 @@ body{
     position: relative;
     /* left: 10px; */
 }
-div img{
-    min-height: 270px;
-    min-width: 100%;
-}
-.card{
-    height: 25px;
-    width: 280px;
-    margin: 15px 0px 430px 0px;
-    border-radius: 10px;
-}
-.card-content{
-    background-color: white;
-}
-.card p{
-    text-align: center;
-}
-/* .card-title{
-    font-weight: 600;
-} */
 
 .hero{
     background-image: url(Images/wallpaper.jpg);
@@ -109,8 +90,7 @@ div img{
 .thesignup{
     position: relative;
     left: 10vw;
-    margin-top: -120px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .instruct img{
     min-width: 150px;
@@ -145,7 +125,7 @@ div .tdb{
 
 .cre8{
     padding: 3vh 3vw;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
 }
 .courses{
     margin-top: 4vh;
@@ -162,4 +142,11 @@ div .tdb{
 }
 .lasthr{
     padding-bottom: 4vh;
+}
+.coursecontent{
+    line-height: 35px;
+}
+.delete{
+    padding: 5px 5px;
+    margin: 200px 0px 200px 100px;
 }
