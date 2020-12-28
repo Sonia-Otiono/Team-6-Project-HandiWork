@@ -1,0 +1,152 @@
+body{
+    font-weight: 500;
+}
+
+#explore{
+    position: relative;
+    right: 160px;
+}
+
+#search{
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 405px;
+    height: 30px;
+    position: relative;
+    right: 100px;
+}
+
+#search-icon{
+    position: relative;
+    top: -60px;
+    left: 275px;
+}
+
+.topbtn, .dashb{
+    position: relative;
+    /* left: 10px; */
+}
+
+.hero{
+    background-image: url(Images/wallpaper.jpg);
+    background-size: cover ;
+    height: 360px;
+    margin-bottom: 5vh;
+    margin-top: -5vh;
+}
+.hero h2{
+    padding-top: 6vh;
+    margin-bottom: 5px;
+}
+.hero a{
+    position: relative;
+    top: 3vh;
+    left: 32vw;
+}
+.card{
+    height: 25px;
+    width: 280px;
+    margin-top: 15px;
+    margin-bottom: 400px;
+    border-radius: 10px;
+}
+.card .card-image img{
+    height: 250px;
+    min-width: 50px;
+}
+.card-content{
+    background-color: white;
+}
+.card p{
+    text-align: center;
+}
+ .card-title{
+    font-weight: 800;
+} 
+.teal-text{
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+.thehr{
+    padding-top:3vh;
+    margin-bottom: -15px;
+}
+.gainshr{
+    padding-bottom: 3vh;
+}
+.gains h5{
+    font-weight: 600;
+    font-size: 20px;
+}
+.stretch{
+    letter-spacing: 12px;
+    display: inline-block;
+    font-size: 62px;
+    transform: scaleY(0.7); 
+    transform-origin: 0 0;
+    line-height: 82px;
+}
+.thesignup{
+    position: relative;
+    left: 10vw;
+    margin-bottom: 15px;
+}
+.instruct img{
+    min-width: 150px;
+    height: 450px;
+}
+.grey{
+    margin-bottom: 15px;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+.grey h5{
+    font-weight: 500;
+}
+.students{
+    margin-top: 5px; 
+    margin-left: 45px;
+}
+.profile, .course{
+    margin-bottom: 15px;
+}
+.td{
+    font-weight: 500;
+}
+.grey ul i{
+    position: relative;
+    top: 7px;
+}
+div .tdb{
+    padding: 2vh;
+    margin-left: 2px;
+}
+
+.cre8{
+    padding: 3vh 3vw;
+    margin-bottom: 55px;
+}
+.courses{
+    margin-top: 4vh;
+}
+.check{
+    margin-left: 12vw;
+}
+.testimony{
+    margin-bottom: 500px;
+    background-color: white;
+}
+.testify{
+    padding-top: 3vh;
+}
+.lasthr{
+    padding-bottom: 4vh;
+}
+.coursecontent{
+    line-height: 35px;
+}
+.delete{
+    padding: 5px 5px;
+    margin: 200px 0px 200px 100px;
+}

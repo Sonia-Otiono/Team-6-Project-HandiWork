@@ -1,0 +1,66 @@
+/* body{ 
+    background-image: url(vstt.jpg);
+}
+#a{
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+form {
+    padding: 120px;
+    background-color:rgb(201, 201, 201);
+    border-radius: 30px;
+    margin: 100px;
+    
+
+    
+}
+h3{
+    padding: 50px;
+    align-items: center;
+}
+.input-field{
+    background-color:rgb(241, 240, 240);
+    border-radius: 30px;
+    padding: 3px;
+
+} */
+
+body{  
+    background-image: url(vstt.jpg);
+    
+}
+#a{
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+form {
+    padding: 60px;
+    background-color:rgb(201, 201, 201);
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}   
+
+
+.input-field{
+    background-color:rgb(241, 240, 240);
+    border-radius: 25px;
+    padding: 3px;
+    
+    
+    
+
+    
+    
+}

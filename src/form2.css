@@ -1,0 +1,37 @@
+body{ 
+    background-image: url(vstt.jpg);
+}
+#a{
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#b {
+    border-radius: 20px;
+}
+#c{
+    border-radius: 20px;
+}
+
+form {
+    padding: 10px;
+    border:2px black;
+    background-color: white;
+    border-radius: 80px;
+    margin-bottom: 20px;
+}
+h3{
+    padding: 50px;
+    align-items: center;
+}
+#e{
+    margin-bottom: 40px;
+}
+#f{
+    margin-bottom: 40px;
+}
+.input-field{
+    border-radius: 10px;
+    padding: 20px;
+}
