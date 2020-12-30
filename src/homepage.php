@@ -33,21 +33,11 @@ if($role == "Trainer"){ $istrainer = true;}
                         <li><input type="text" id="search" class="grey lighten-4 z-depth-0" placeholder="search for course">
                             <i class="material-icons red-text text-darken-1" id="search-icon">search</i>
                         </li>
-<<<<<<< HEAD
                         <?php if($istrainer) : ?>
                           <li><a href="trainers-dashb.php" class="btn red darken-1 dashb z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
                         <?php else : ?>
                           <li><a href="learners-dashb.php" class="btn red darken-1 dashb z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
                         <?php endif; ?>
-=======
-                        <li><a href="trainers-dashb.php" class="btn red darken-1 dashb z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
-                    </ul>
-        
-                    <ul class="sidenav" id="ham-menu">
-                        <li><a href="all-courses.php" >Explore</a></li>
-                        <li><a href="login.php" >LOG IN</a></li>
-                        <li><a href="signup.php" >SIGN UP</a></li>
->>>>>>> a208eda1ae1bb999a5a08ac1821412ee66d8f31f
                     </ul>
                 </div>
             </nav>
