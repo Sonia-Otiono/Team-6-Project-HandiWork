@@ -25,15 +25,7 @@
                         <li><a href="login.php" class="btn red darken-1 topbtn z-depth-0 main-nav" style=" font-weight: 500;" >LOG IN</a></li>
                         <li><a href="signup.php" class="btn red darken-1 topbtn z-depth-0 main-nav" style="font-weight: 500;">SIGN UP</a></li>
                     </ul>
-<<<<<<< HEAD
-=======
-        
-                    <ul class="sidenav" id="ham-menu">
-                        <li><a href="all-courses.php" >Explore</a></li>
-                        <li><a href="login.php" >LOG IN</a></li>
-                        <li><a href="signup.php" >SIGN UP</a></li>
-                    </ul>
->>>>>>> a208eda1ae1bb999a5a08ac1821412ee66d8f31f
+
                 </div>
             </nav>
         </div>
@@ -173,7 +165,7 @@
                         <a href="signup.php" class="btn black thesignup">Sign up</a>
                     </div>
                     <div class="col s12 l5 offset-l2">
-                        <img src="images/instructor.jpg" alt="">
+                        <img src="Images/instructor.jpg">
                     </div>
                      <div class="card-action">
 
