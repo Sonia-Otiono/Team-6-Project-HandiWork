@@ -65,14 +65,12 @@
         <div class="container">
             <h3 style="font-weight: 500;">Courses</h3>
             <div class="row">
-                <div class="col s12 l12 cre8">
-                    <h4>Create A New Course</h4>
+                <div class="col s4 l3 cre8">
                     <button class="btn yellow darken-3 z-depth-0"><a href="create-course.php" class="black-text">Create</a></button>
                 </div>
 
-                <div class="col s12 m6 l3">
-                <h4>Update/Delete Courses</h4>
                 <?php foreach($courses as $course){ ?>
+                    <div class="col s4 m12 l12">
                     <div class="card" style="min-width: 450px; min-height: 450px;">
                         <div class="card-image" style="min-width: 70px; min-height: 250px;">
                             <img src="Images/<?php echo $course['Image'];?>" style="height:450px;">
@@ -87,7 +85,7 @@
                         </div>
                         
                     </div>
-                </div>
+                    </div>
                 <?php } ?>
             </div>
         </div>    

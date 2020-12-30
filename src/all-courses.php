@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <?php foreach($courses as $course){ ?>
-                <div class="col s12 m6 l4">
+                <div class="col s12 m12 l4">
                     <div class="card" style="margin-bottom: 520px"> 
                         <div class="card-image">
                             <img src="Images/<?php echo $course['Image'];?>" width="250px" height="250px">

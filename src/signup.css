@@ -5,16 +5,18 @@ body{
 #a{
     padding-right: 100px;
     padding-left: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
+.tdiv{
+    border-radius: 15px;
+}
 
 form {
     padding: 60px;
-    background-color:rgb(201, 201, 201);
-    border-radius: 10px;
+    border-radius: 50px;
     margin-bottom: 100px;
     margin-top: 100px;
 
@@ -22,8 +24,15 @@ form {
 
 
 .input-field{
-    background-color:rgb(241, 240, 240);
-    border-radius: 15px;
+    /* background-color: rgb(201, 243, 235); */
+    border-radius: 7px;
     padding: 3px;
     min-width: 50px;
+}
+.reg-btn{
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
 }

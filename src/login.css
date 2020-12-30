@@ -1,4 +1,4 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+/* body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;
     height: 300px;
     margin:0, auto;
@@ -30,4 +30,92 @@ button {
 
 button:hover {
   opacity: 0.8;
+} */
+
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:lightgray;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px; 
+        overflow: hidden;  
+        margin: 200px 0px 100px 250px;  
+        padding: 50px;  
+        background:white;  
+        border-radius: 15px ;  
+        text-align: center;
+          
+}  
+h1{  
+    text-align: center;  
+    color: black;  
+    padding: 5px;
+    margin: 5px;
+
+ 
+}  
+label{  
+    color: black;  
+    font-size: 17px; 
+    text-align: auto; 
+    float: left;
+    margin-bottom: 5px;
+
+    
+}  
+#username{  
+    width: 400px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 8px;
+    text-align: left;  
+    background-color: lightgray;
+    margin-bottom: 25px;
+}  
+#password{  
+    width: 400px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 8px; 
+    background-color: lightgray; 
+    margin-bottom: 25px;
+
+      
+}  
+#log{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    /* padding-left: 3px;   */
+    color: black;  
+    background-color:red ;
+    font-size: 17px;
+    position: relative;
+    right: 35px;
+    margin-top: 25px;
+    
+
+  
+  
+}  
+span{  
+    color: black;  
+    font-size: 17px; 
+    float: left;
+}
+#check{
+    float: left;
+}
+p{
+    font-size:17px;
+}  
+a{
+    font-size: 17px;
+    float: left;
 }

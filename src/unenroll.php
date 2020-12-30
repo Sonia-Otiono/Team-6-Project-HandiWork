@@ -2,9 +2,9 @@
 
 include('include/config.php');
 
-if(isset($_POST['CourseID'])){
+if(isset($_GET['CourseID'])){
     
-    $CourseID = mysqli_real_escape_string($conn, $_POST['CourseID']);
+    $CourseID = mysqli_real_escape_string($conn, $_GET['CourseID']);
 
     session_start();
 
@@ -13,7 +13,7 @@ if(isset($_POST['CourseID'])){
     //make sql
     $sql = "UPDATE courseenrollments
     SET CourseID = '$CourseID',  UserId = '$userID', Status = 'unenrolled'
-    WHERE CourseID $CourseID AND UserId = $userID";
+    WHERE CourseID = $CourseID AND UserId = $userID";
 
 
 }
@@ -27,7 +27,7 @@ if(isset($_POST['CourseID'])){
 
     if(mysqli_query($conn, $sql)){
         // success
-        header('Location: one-course.php?enrollment=false&CourseID='.$CourseID);
+        header('Location: one-course.php?unenrolled=true&CourseID='.$CourseID);
     } else{
         echo "<script type='text/javascript'>alert('Unenrollment Unsuccessful')</script>";
     }

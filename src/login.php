@@ -1,38 +1,41 @@
 <!DOCTYPE html>    
-<html>    
-<head>    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>    
-    <link rel="stylesheet" type="text/css" href="style.css">    
+    
+
+    <!-- <link rel="stylesheet" type="text/css" href="login.css">  -->
+    <style>
+    <?php include "login.css" ?>
+    </style>
+
 </head>    
 <body>    
-    <h1>Login Page</h1>
             
     <div class="login">    
     
     <form id="login-form" method="post" action="login.php">   
-        <label><b>User Name     
-        </br>    
-        </label>    
-        <input type="text" name="username" id="username" placeholder="Username">    
-        <br><br>    
-        <label><b>Password     
-        </br>    
-        </label>    
-        <input type="Password" name="password" id="password" placeholder="Password">    
-        <br><br> 
+    <h1>Login </h1>
+
+        <div class="input-field">
+        <label>User Name </label> 
+        <input type="text" name="username" required id="username" class="validate" placeholder="Username"> 
+        </div>
+
+        <div class="input-field">
+        <label>Password</label>    
+        <input type="Password" name="password" class="validate" required id="password" placeholder="Password">
+        </div>
         <input type="checkbox" id="check">    
         <span>Remember me</span>    
-        <br><br>   
-        <input type="submit" name="log" id="log" value="Login">       
-        <br><br>    
-        
+        <input type="submit" name="log" id="log" value="Login">               
         <!--<div>    
         <a href="#">Forgot Password</a>  
         </div>-->
     </form>     
-</div>    
-</body>    
-</html> 
+</div>   
 
 <?php  
  include('include/config.php');
@@ -59,13 +62,14 @@ if (isset($_POST['username']) and isset($_POST['password']))
     if ($count == 1)
     {
         $user = mysqli_fetch_array($result);
-    print_r($user);
         session_start();
                             
         // Store data in session variables
         $_SESSION["loggedin"] = true;
         $_SESSION["username"] = $username;
         $_SESSION["UserID"] = $user['UserId'];
+        $_SESSION["Role"] = $user['Role'];
+
 
 
         //echo "Login Credentials verified";

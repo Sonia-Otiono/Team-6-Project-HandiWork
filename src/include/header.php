@@ -1,6 +1,9 @@
 <?php
   include('config.php');
-
+  session_start();
+  $role = $_SESSION['Role'];
+  $istrainer = false;
+  if($role == "Trainer"){ $istrainer = true;}
 ?>
 
 <!DOCTYPE html>
@@ -27,15 +30,22 @@
                         <li><input type="text" id="search" class="grey lighten-4" placeholder="search for course">
                             <i class="material-icons red-text text-darken-1" id="search-icon">search</i>
                         </li>
-                        <li><a href="trainers-dashb.php" class="btn red darken-1 dashb z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
-                        <!-- <li><a href="" class="btn red darken-1 btn-small z-depth-0 main-nav" style="font-weight: 500;">Hi,<?php //echo htmlspecialchars($_SESSION["username"]) ?></a> </li> -->
-                    </ul>
-                    <ul class="sidenav" id="ham-menu">
-                        <li><a href="all-courses.php" >Explore</a></li>
-                        <li><a href="trainers-dashb.php" >Dashboard</a></li>
-                        <li><a href="#" >Log out</a></li>
+                        <?php if($istrainer) : ?>
+                          <li><a href="trainers-dashb.php" class="btn red darken-1 dashb z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
+                        <?php else : ?>
+                          <li><a href="learners-dashb.php" class="btn red darken-1 dashb z-depth-0 main-nav" style="font-weight: 500;">Dashboard</a></li>
+                        <?php endif; ?>
                     </ul>
                 </div>
             </nav>
         </div>
+        <ul class="sidenav" id="ham-menu">
+            <li><a href="all-courses.php" >Explore</a></li>
+            <?php if($istrainer) : ?>
+              <li><a href="trainers-dashb.php">Dashboard</a></li>
+            <?php else : ?>
+              <li><a href="learners-dashb.php" >Dashboard</a></li>
+            <?php endif; ?>
+            <li><a href="#" >Log out</a></li>
+        </ul>
     </header>

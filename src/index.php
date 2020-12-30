@@ -13,7 +13,7 @@
         <div class="navbar-fixed">
             <nav class="nav-wrapper white z-depth-0">
                 <div class="container">
-                    <a href="homepage.php" class="brand-logo red-text  z-depth-0text-darken-1" style="font-weight: 500;">HandiWork</a>
+                    <a href="homepage.php" class="brand-logo red-text  z-depth-0 text-darken-1" style="font-weight: 500;">HandiWork</a>
                     <a href="#" class="sidenav-trigger" data-target="ham-menu">
                         <i class="material-icons red-text">menu</i>
                     </a>
@@ -25,15 +25,14 @@
                         <li><a href="login.php" class="btn red darken-1 topbtn z-depth-0 main-nav" style=" font-weight: 500;" >LOG IN</a></li>
                         <li><a href="signup.php" class="btn red darken-1 topbtn z-depth-0 main-nav" style="font-weight: 500;">SIGN UP</a></li>
                     </ul>
-        
-                    <ul class="sidenav" id="ham-menu">
-                        <li><a href="#" >Explore</a></li>
-                        <li><a href="#" >LOG IN</a></li>
-                        <li><a href="#" >SIGN UP</a></li>
-                    </ul>
                 </div>
             </nav>
         </div>
+        <ul class="sidenav" id="ham-menu">
+            <li><a href="all-courses.php" >EXPLORE</a></li>
+            <li><a href="login.php" >LOG IN</a></li>
+            <li><a href="signup.php" >SIGN UP</a></li>
+        </ul>
     </header>
 
     <section>
@@ -41,7 +40,7 @@
             <div class="container">
                 <h2 class="center white-text">Learn Expert-Led Vocational Skills For <span class="yellow-text text-darken-3" style="font-size: 60px;">FREE </span>and at Your Own Pace.</h2>
                 <div>
-                    <a href="signup.php" class="center btn yellow darken-4 ">Sign Up Now</a>
+                    <a href="signup.php" class="center btn z-depth-0 yellow darken-4 ">Sign Up Now</a>
                     <!-- <a href="#" class="check center btn yellow darken-4">Check what others are saying</a> -->
                 </div>
             </div>
