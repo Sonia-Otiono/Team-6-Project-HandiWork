@@ -115,7 +115,7 @@ $email = mysqli_real_escape_string($conn, $_POST['email']);
              <input name="password" required class="validate" type="password">
               <label for="password">Confirm password</label>
 </div>
-         <input type="submit" class="btn red" name="submit" value="submit">
+         <input type="submit" class="btn red" name="register" value="register">
      </form>
  </div>
  </section> 
